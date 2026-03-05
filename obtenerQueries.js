@@ -120,7 +120,7 @@ async function main() {
 
     if (queryFinal.length === 0) {
         console.log("Los registros estan al dia")
-        // return
+        return
     } 
 
     // generar fecha y hora
